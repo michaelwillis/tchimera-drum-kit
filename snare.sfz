@@ -1,0 +1,19 @@
+#include "keymap.sfz"
+#define $SAMPLE_DIR samples/snare
+
+<global>
+loop_mode=one_shot
+amp_veltrack=100
+amp_velcurve_1=0.4
+
+<group>
+key=$SNARE_CENTER_KEY
+#include "sfz/snare_center.sfz"
+
+<group>
+key=$SNARE_EDGE_KEY
+#include "sfz/snare_edge.sfz"
+
+<group>
+key=$SNARE_RIM_KEY
+#include "sfz/snare_rim.sfz"

@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+
+import getopt, sys, os, wave
+
+def help():
+    print('This utility is intended to create mono or stereo samples from multi-mic samples')
+    print('Example usage:')
+    print('')
+    print('    extract-channels -p my_wave_file_prefix -d dest_dir 3 4')
+    print('')
+    print('* Finds all wav files starting with my_wave_file_prefix')
+    print('* If needed, creates directory dest_dir')
+    print('* Creates new stereo samples using channels 3 and 4 from the originals')
+    print('* Saves new wave files in dest_dir with names identical to the originals')
+    sys.exit(2)
+
+try:
+    opts, args = getopt.getopt(sys.argv[1:], "p:c:d:")
+except getopt.GetoptError:
+    help()
+
+prefix = None
+dest_dir = None
+
+for o, v in opts:
+    if o == "-p":
+        prefix = v
+    if o == "-d":
+        dest_dir = v
+
+if prefix is None or dest_dir is None:
+    help()
+
+if len(args) == 0 or len(args) > 2:
+    help()
+
+try:
+    channels = [int(c) - 1 for c in args] # one-based channel numbers
+except ValueError:
+    help()
+
+for c in channels:
+    if c < 0:
+        print("Channel numbers must be 1 or greater.")
+        sys.exit(2)
+
+if not os.path.isdir(dest_dir):
+    os.mkdir(dest_dir)
+
+for f in os.listdir('.'):
+    if os.path.isfile(f) and f.startswith(prefix) and f.endswith('.wav'):
+
+        print(f + " => " + dest_dir + "/" + f)
+
+        with wave.open(f, 'rb') as wave_in:
+            for c in channels:
+                if c >= wave_in.getnchannels():
+                    print(f + " only has " + str(wave_in.getnchannels()) + " channels!")
+                    sys.exit(2)
+            
+            with wave.open(dest_dir + "/" + f, 'wb') as wave_out:
+                sample_width = wave_in.getsampwidth()
+
+                wave_out.setnchannels(len(channels))
+                wave_out.setsampwidth(sample_width)
+                wave_out.setframerate(wave_in.getframerate())
+
+                for f in range(wave_in.getnframes()):
+                    frame_in = wave_in.readframes(1)
+                    frame_out = bytearray(len(channels))
+                    for i in range(len(channels)):
+                        offset_in = channels[i] * sample_width
+                        offset_out = i * sample_width
+                        frame_out[offset_out:offset_out+sample_width] = \
+                            frame_in[offset_in:offset_in+sample_width]
+                    wave_out.writeframes(frame_out)

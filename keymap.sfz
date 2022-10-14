@@ -1,0 +1,25 @@
+#define $KICK_FREE_KEY 35
+#define $KICK_DAMP_KEY 36
+
+#define $SNARE_CENTER_KEY 38
+#define $SNARE_EDGE_KEY 39 // TODO - move this, conflicts with tom4 on most e-drums
+#define $SNARE_RIM_KEY 40
+
+#define $HIHAT_OPEN_KEY 46
+#define $HIHAT_PEDAL_KEY 44
+#define $HIHAT_CLOSED_KEY 42
+#define $HIHAT_HALF_KEY 23
+
+#define $LOW_FLOOR_TOM_KEY 41
+#define $HIGH_FLOOR_TOM_KEY 43
+#define $LOW_RACK_TOM_KEY 45
+#define $MID_RACK_TOM_KEY 47
+#define $HIGH_RACK_TOM_KEY 48
+
+#define $CRASH_1_KEY 49
+#define $CRASH_2_KEY 57
+
+#define $RIDE_BOW_KEY 51
+#define $RIDE_BELL_KEY 53
+#define $RIDE_EDGE_KEY 59
+

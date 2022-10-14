@@ -1,0 +1,15 @@
+#include "keymap.sfz"
+#define $SAMPLE_DIR samples/kick
+
+<global>
+loop_mode=one_shot
+amp_veltrack=100
+amp_velcurve_1=0.4
+
+<group>
+key=$KICK_DAMP_KEY
+#include "sfz/kick_damp.sfz"
+
+<group>
+key=$KICK_FREE_KEY
+#include "sfz/kick_free.sfz"
