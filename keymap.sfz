@@ -2,7 +2,8 @@
 #define $KICK_DAMP_KEY 36
 
 #define $SNARE_CENTER_KEY 38
-#define $SNARE_EDGE_KEY 39 // TODO - move this, conflicts with tom4 on most e-drums
+// Roland TD-20 and maybe others use 33 for snare edge
+#define $SNARE_EDGE_KEY 33
 #define $SNARE_RIM_KEY 40
 
 #define $HIHAT_OPEN_KEY 46
@@ -10,11 +11,17 @@
 #define $HIHAT_CLOSED_KEY 42
 #define $HIHAT_HALF_KEY 23
 
-#define $LOW_FLOOR_TOM_KEY 41
-#define $HIGH_FLOOR_TOM_KEY 43
-#define $LOW_RACK_TOM_KEY 45
-#define $MID_RACK_TOM_KEY 47
-#define $HIGH_RACK_TOM_KEY 48
+#define $TOM_1_KEY 48
+#define $TOM_1_RIM_KEY 50
+#define $TOM_2_KEY 45
+#define $TOM_2_RIM_KEY 47
+#define $TOM_3_KEY 43
+#define $TOM_3_RIM_KEY 58
+#define $TOM_4_KEY 41
+#define $TOM_4_RIM_KEY 39
+// 27 and 28 are AUX on some Roland models, so I'm making it tom 5
+#define $TOM_5_KEY 27
+#define $TOM_5_RIM_KEY 28
 
 #define $CRASH_1_KEY 49
 #define $CRASH_2_KEY 57
