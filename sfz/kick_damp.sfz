@@ -11,115 +11,115 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_02.wav
-lovel=12
+lovel=13
 hivel=25
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_02.wav
-lovel=12
+lovel=13
 hivel=25
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_03.wav
-lovel=25
+lovel=26
 hivel=38
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_03.wav
-lovel=25
+lovel=26
 hivel=38
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_04.wav
-lovel=38
+lovel=39
 hivel=50
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_04.wav
-lovel=38
+lovel=39
 hivel=50
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_05.wav
-lovel=50
+lovel=51
 hivel=63
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_05.wav
-lovel=50
+lovel=51
 hivel=63
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_06.wav
-lovel=63
+lovel=64
 hivel=76
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_06.wav
-lovel=63
+lovel=64
 hivel=76
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_07.wav
-lovel=76
+lovel=77
 hivel=88
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_07.wav
-lovel=76
+lovel=77
 hivel=88
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_08.wav
-lovel=88
+lovel=89
 hivel=101
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_08.wav
-lovel=88
+lovel=89
 hivel=101
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_09.wav
-lovel=101
+lovel=102
 hivel=114
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_09.wav
-lovel=101
+lovel=102
 hivel=114
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_a_10.wav
-lovel=114
+lovel=115
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/kick_prem_damp_b_10.wav
-lovel=114
+lovel=115
 seq_length=2
 seq_position=2

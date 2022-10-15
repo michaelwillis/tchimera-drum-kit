@@ -11,141 +11,141 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_02.wav
-lovel=10
+lovel=11
 hivel=21
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_02.wav
-lovel=10
+lovel=11
 hivel=21
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_03.wav
-lovel=21
+lovel=22
 hivel=31
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_03.wav
-lovel=21
+lovel=22
 hivel=31
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_04.wav
-lovel=31
+lovel=32
 hivel=42
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_04.wav
-lovel=31
+lovel=32
 hivel=42
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_05.wav
-lovel=42
+lovel=43
 hivel=52
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_05.wav
-lovel=42
+lovel=43
 hivel=52
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_06.wav
-lovel=52
+lovel=53
 hivel=63
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_06.wav
-lovel=52
+lovel=53
 hivel=63
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_07.wav
-lovel=63
+lovel=64
 hivel=74
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_07.wav
-lovel=63
+lovel=64
 hivel=74
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_08.wav
-lovel=74
+lovel=75
 hivel=84
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_08.wav
-lovel=74
+lovel=75
 hivel=84
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_09.wav
-lovel=84
+lovel=85
 hivel=95
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_09.wav
-lovel=84
+lovel=85
 hivel=95
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_10.wav
-lovel=95
+lovel=96
 hivel=105
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_10.wav
-lovel=95
+lovel=96
 hivel=105
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_11.wav
-lovel=105
+lovel=106
 hivel=116
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_11.wav
-lovel=105
+lovel=106
 hivel=116
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_a_12.wav
-lovel=116
+lovel=117
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_rim_b_12.wav
-lovel=116
+lovel=117
 seq_length=2
 seq_position=2

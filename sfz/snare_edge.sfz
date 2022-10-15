@@ -11,167 +11,167 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_02.wav
-lovel=9
+lovel=10
 hivel=18
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_02.wav
-lovel=9
+lovel=10
 hivel=18
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_03.wav
-lovel=18
+lovel=19
 hivel=27
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_03.wav
-lovel=18
+lovel=19
 hivel=27
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_04.wav
-lovel=27
+lovel=28
 hivel=36
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_04.wav
-lovel=27
+lovel=28
 hivel=36
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_05.wav
-lovel=36
+lovel=37
 hivel=45
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_05.wav
-lovel=36
+lovel=37
 hivel=45
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_06.wav
-lovel=45
+lovel=46
 hivel=54
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_06.wav
-lovel=45
+lovel=46
 hivel=54
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_07.wav
-lovel=54
+lovel=55
 hivel=63
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_07.wav
-lovel=54
+lovel=55
 hivel=63
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_08.wav
-lovel=63
+lovel=64
 hivel=72
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_08.wav
-lovel=63
+lovel=64
 hivel=72
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_09.wav
-lovel=72
+lovel=73
 hivel=81
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_09.wav
-lovel=72
+lovel=73
 hivel=81
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_10.wav
-lovel=81
+lovel=82
 hivel=90
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_10.wav
-lovel=81
+lovel=82
 hivel=90
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_11.wav
-lovel=90
+lovel=91
 hivel=99
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_11.wav
-lovel=90
+lovel=91
 hivel=99
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_12.wav
-lovel=99
+lovel=100
 hivel=108
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_12.wav
-lovel=99
+lovel=100
 hivel=108
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_13.wav
-lovel=108
+lovel=109
 hivel=117
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_13.wav
-lovel=108
+lovel=109
 hivel=117
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_a_14.wav
-lovel=117
+lovel=118
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/snare_supr64_edg_b_14.wav
-lovel=117
+lovel=118
 seq_length=2
 seq_position=2

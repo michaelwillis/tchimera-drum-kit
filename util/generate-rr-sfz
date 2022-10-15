@@ -35,9 +35,10 @@ if prefix is None or round_robins is None or velocities is None:
 
 round_robin_names = "abcdefghijklmnopqrstuvwxyz"
 
+lovel = 0
+
 for v in range(velocities):
 
-    lovel = int(v * (127 / velocities))
     hivel = int((v + 1) * (127 / velocities))
     if hivel > 127:
         hivel = 127
@@ -53,3 +54,5 @@ for v in range(velocities):
         if r > 0:
             print('seq_position=' + str(r + 1))
         print('')
+
+    lovel = hivel + 1 # next iteration
