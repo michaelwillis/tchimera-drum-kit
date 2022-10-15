@@ -32,6 +32,11 @@ key=$SNARE_RIM_KEY
 #include "sfz/snare_rim.sfz"
 
 
+<master>
+fil_type=lpf_4p
+cutoff=4000
+amplitude=50
+
 #define $SAMPLE_DIR samples/overheads/toms
 
 <group>
