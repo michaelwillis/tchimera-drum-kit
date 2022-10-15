@@ -30,3 +30,46 @@ key=$SNARE_EDGE_KEY
 <group>
 key=$SNARE_RIM_KEY
 #include "sfz/snare_rim.sfz"
+
+
+#define $SAMPLE_DIR samples/overheads/toms
+
+<group>
+key=$TOM_1_KEY
+#include "sfz/tom_1.sfz"
+
+<group>
+key=$TOM_1_RIM_KEY
+#include "sfz/tom_1_rim.sfz"
+
+<group>
+key=$TOM_2_KEY
+#include "sfz/tom_2.sfz"
+
+<group>
+key=$TOM_2_RIM_KEY
+#include "sfz/tom_2_rim.sfz"
+
+<group>
+key=$TOM_3_KEY
+#include "sfz/tom_3.sfz"
+
+<group>
+key=$TOM_3_RIM_KEY
+#include "sfz/tom_3_rim.sfz"
+
+<group>
+key=$TOM_4_KEY
+#include "sfz/tom_4.sfz"
+
+<group>
+key=$TOM_4_RIM_KEY
+#include "sfz/tom_4_rim.sfz"
+
+<group>
+key=$TOM_5_KEY
+#include "sfz/tom_5.sfz"
+
+<group>
+key=$TOM_5_RIM_KEY
+#include "sfz/tom_5_rim.sfz"
