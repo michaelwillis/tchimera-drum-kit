@@ -1,15 +1,28 @@
 #define $KICK_FREE_KEY 35
 #define $KICK_DAMP_KEY 36
 
+
 #define $SNARE_CENTER_KEY 38
 // Roland TD-20 and maybe others use 33 for snare edge
 #define $SNARE_EDGE_KEY 33
 #define $SNARE_RIM_KEY 40
 
-#define $HIHAT_OPEN_KEY 46
+
+#define $HIHAT_OPEN_BOW_KEY 46
+#define $HIHAT_OPEN_EDGE_KEY 26
 #define $HIHAT_PEDAL_KEY 44
-#define $HIHAT_CLOSED_KEY 42
-#define $HIHAT_HALF_KEY 23
+#define $HIHAT_CLOSED_BOW_KEY 42
+#define $HIHAT_CLOSED_EDGE_KEY 22
+#define $HIHAT_HALF_EDGE_KEY 24
+
+// Alesis
+#define $HIHAT_HALF_BOW_KEY_1 23
+#define $HIHAT_SPLASH_KEY_1 21
+
+// Simmons
+#define $HIHAT_HALF_BOW_KEY_2 86
+#define $HIHAT_SPLASH_KEY_2 85 
+
 
 #define $TOM_1_KEY 48
 #define $TOM_1_RIM_KEY 50
@@ -23,8 +36,10 @@
 #define $TOM_5_KEY 27
 #define $TOM_5_RIM_KEY 28
 
+
 #define $CRASH_1_KEY 49
 #define $CRASH_2_KEY 57
+
 
 #define $RIDE_BOW_KEY 51
 #define $RIDE_BELL_KEY 53
