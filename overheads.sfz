@@ -65,16 +65,10 @@ key=$TOM_3_RIM_KEY
 
 <group>
 key=$TOM_4_KEY
+tune=300
 #include "sfz/tom_4.sfz"
 
 <group>
 key=$TOM_4_RIM_KEY
+tune=300
 #include "sfz/tom_4_rim.sfz"
-
-<group>
-key=$TOM_5_KEY
-#include "sfz/tom_5.sfz"
-
-<group>
-key=$TOM_5_RIM_KEY
-#include "sfz/tom_5_rim.sfz"
