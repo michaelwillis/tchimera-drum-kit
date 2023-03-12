@@ -1,0 +1,9 @@
+#include "keymap.sfz"
+#define $SAMPLE_DIR samples/hihat
+
+<global>
+loop_mode=one_shot
+amp_veltrack=100
+amp_velcurve_1=0.4
+
+#include "sfz/hihat_all.sfz"

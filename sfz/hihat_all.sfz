@@ -1,0 +1,234 @@
+<master>
+polyphony=3
+
+<group>
+key=$HIHAT_OPEN_BOW_KEY
+locc4=103
+group=1
+off_by=2
+#include "sfz/hihat_full_open_bow.sfz"
+
+<group>
+key=$HIHAT_OPEN_BOW_KEY
+locc4=77
+hicc4=102
+group=1
+off_by=2
+#include "sfz/hihat_open_4_bow.sfz"
+
+<group>
+key=$HIHAT_OPEN_BOW_KEY
+locc4=52
+hicc4=76
+group=1
+off_by=2
+#include "sfz/hihat_open_3_bow.sfz"
+
+<group>
+key=$HIHAT_OPEN_BOW_KEY
+locc4=26
+hicc4=51
+group=1
+off_by=2
+#include "sfz/hihat_open_2_bow.sfz"
+
+<group>
+key=$HIHAT_OPEN_BOW_KEY
+hicc4=25
+group=1
+off_by=2
+#include "sfz/hihat_open_1_bow.sfz"
+
+
+<group>
+key=$HIHAT_OPEN_EDGE_KEY
+locc4=103
+group=1
+off_by=2
+#include "sfz/hihat_full_open_edge.sfz"
+
+<group>
+key=$HIHAT_OPEN_EDGE_KEY
+locc4=77
+hicc4=102
+group=1
+off_by=2
+#include "sfz/hihat_open_4_edge.sfz"
+
+<group>
+key=$HIHAT_OPEN_EDGE_KEY
+locc4=52
+hicc4=76
+group=1
+off_by=2
+#include "sfz/hihat_open_3_edge.sfz"
+
+<group>
+key=$HIHAT_OPEN_EDGE_KEY
+locc4=26
+hicc4=51
+group=1
+off_by=2
+#include "sfz/hihat_open_2_edge.sfz"
+
+<group>
+key=$HIHAT_OPEN_EDGE_KEY
+hicc4=25
+group=1
+off_by=2
+#include "sfz/hihat_open_1_edge.sfz"
+
+
+<master>
+polyphony=3
+
+<group>
+key=$HIHAT_HALF_BOW_KEY_1
+group=2
+off_by=3
+#include "sfz/hihat_open_2_bow.sfz"
+
+<group>
+key=$HIHAT_HALF_BOW_KEY_2
+group=2
+off_by=3
+#include "sfz/hihat_open_2_bow.sfz"
+
+<group>
+key=$HIHAT_HALF_EDGE_KEY
+group=2
+off_by=3
+#include "sfz/hihat_open_2_edge.sfz"
+
+
+<master>
+polyphony=3
+
+<group>
+key=$HIHAT_PEDAL_KEY
+group=3
+off_by=4
+#include "sfz/hihat_pedal.sfz"
+
+
+<master>
+polyphony=3
+
+<group>
+key=$HIHAT_CLOSED_BOW_KEY
+group=4
+#include "sfz/hihat_closed_bow.sfz"
+
+
+<group>
+key=$HIHAT_CLOSED_EDGE_KEY
+group=4
+#include "sfz/hihat_closed_edge.sfz"
+
+<master>
+polyphony=2
+
+<group>
+key=$HIHAT_SPLASH_KEY_1
+group=5
+off_by=5
+#include "sfz/hihat_splash.sfz"
+
+<group>
+key=$HIHAT_SPLASH_KEY_2
+group=5
+off_by=5
+#include "sfz/hihat_splash.sfz"
+
+
+
+// Hihat choke rules
+<master>
+polyphony=3
+
+// hihat splash choked by open, half, pedal, and closed
+<group>
+sample=*silence
+loop_mode=loop_continuous
+off_mode=normal
+ampeg_attack=0
+ampeg_decay=0
+ampeg_sustain=0
+ampeg_release=0
+group=5
+off_by=5
+<region>
+key=$HIHAT_OPEN_BOW_KEY
+<region>
+key=$HIHAT_OPEN_EDGE_KEY
+<region>
+key=$HIHAT_HALF_BOW_KEY_1
+<region>
+key=$HIHAT_HALF_BOW_KEY_2
+<region>
+key=$HIHAT_HALF_EDGE_KEY
+<region>
+key=$HIHAT_PEDAL_KEY
+<region>
+key=$HIHAT_CLOSED_BOW_KEY
+<region>
+key=$HIHAT_CLOSED_EDGE_KEY
+
+
+// open hihat choked by half, pedal, and closed
+<group>
+sample=*silence
+loop_mode=loop_continuous
+off_mode=normal
+ampeg_attack=0
+ampeg_decay=0
+ampeg_sustain=0
+ampeg_release=0
+group=1
+off_by=2
+<region>
+key=$HIHAT_HALF_BOW_KEY_1
+<region>
+key=$HIHAT_HALF_BOW_KEY_2
+<region>
+key=$HIHAT_HALF_EDGE_KEY
+<region>
+key=$HIHAT_PEDAL_KEY
+<region>
+key=$HIHAT_CLOSED_BOW_KEY
+<region>
+key=$HIHAT_CLOSED_EDGE_KEY
+
+// half open hihat choked by pedal and closed 
+<group>
+sample=*silence
+loop_mode=loop_continuous
+off_mode=normal
+ampeg_attack=0
+ampeg_decay=0
+ampeg_sustain=0
+ampeg_release=0
+group=2
+off_by=3
+<region>
+key=$HIHAT_PEDAL_KEY
+<region>
+key=$HIHAT_CLOSED_BOW_KEY
+<region>
+key=$HIHAT_CLOSED_EDGE_KEY
+
+// hihat pedal choked by closed 
+<group>
+sample=*silence
+loop_mode=loop_continuous
+off_mode=normal
+ampeg_attack=0
+ampeg_decay=0
+ampeg_sustain=0
+ampeg_release=0
+group=3
+off_by=4
+<region>
+key=$HIHAT_CLOSED_BOW_KEY
+<region>
+key=$HIHAT_CLOSED_EDGE_KEY
