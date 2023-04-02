@@ -3,77 +3,60 @@ polyphony=3
 
 <group>
 key=$HIHAT_OPEN_BOW_KEY
-locc4=103
-group=1
-off_by=2
-#include "sfz/hihat_full_open_bow.sfz"
-
-<group>
-key=$HIHAT_OPEN_BOW_KEY
-locc4=77
-hicc4=102
+hicc4=31
 group=1
 off_by=2
 #include "sfz/hihat_open_4_bow.sfz"
 
 <group>
 key=$HIHAT_OPEN_BOW_KEY
-locc4=52
-hicc4=76
+locc4=32
+hicc4=59
 group=1
 off_by=2
 #include "sfz/hihat_open_3_bow.sfz"
 
 <group>
 key=$HIHAT_OPEN_BOW_KEY
-locc4=26
-hicc4=51
+locc4=60
+hicc4=87
 group=1
 off_by=2
 #include "sfz/hihat_open_2_bow.sfz"
 
 <group>
 key=$HIHAT_OPEN_BOW_KEY
-hicc4=25
+locc4=88
 group=1
 off_by=2
 #include "sfz/hihat_open_1_bow.sfz"
 
-
 <group>
 key=$HIHAT_OPEN_EDGE_KEY
-locc4=103
-group=1
-off_by=2
-#include "sfz/hihat_full_open_edge.sfz"
-
-<group>
-key=$HIHAT_OPEN_EDGE_KEY
-locc4=77
-hicc4=102
+hicc4=31
 group=1
 off_by=2
 #include "sfz/hihat_open_4_edge.sfz"
 
 <group>
 key=$HIHAT_OPEN_EDGE_KEY
-locc4=52
-hicc4=76
+locc4=32
+hicc4=59
 group=1
 off_by=2
 #include "sfz/hihat_open_3_edge.sfz"
 
 <group>
 key=$HIHAT_OPEN_EDGE_KEY
-locc4=26
-hicc4=51
+locc4=60
+hicc4=87
 group=1
 off_by=2
 #include "sfz/hihat_open_2_edge.sfz"
 
 <group>
 key=$HIHAT_OPEN_EDGE_KEY
-hicc4=25
+locc4=88
 group=1
 off_by=2
 #include "sfz/hihat_open_1_edge.sfz"
@@ -116,12 +99,26 @@ polyphony=3
 
 <group>
 key=$HIHAT_CLOSED_BOW_KEY
+hicc4=115
+group=4
+#include "sfz/hihat_open_1_bow.sfz"
+
+<group>
+key=$HIHAT_CLOSED_BOW_KEY
+locc4=116
 group=4
 #include "sfz/hihat_closed_bow.sfz"
 
 
 <group>
 key=$HIHAT_CLOSED_EDGE_KEY
+hicc4=115
+group=4
+#include "sfz/hihat_open_1_edge.sfz"
+
+<group>
+key=$HIHAT_CLOSED_EDGE_KEY
+locc4=116
 group=4
 #include "sfz/hihat_closed_edge.sfz"
 
