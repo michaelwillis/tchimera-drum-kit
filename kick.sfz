@@ -8,7 +8,7 @@ amp_velcurve_64=0.75
 
 <master>
 polyphony=2
-master_volume=12
+master_volume=15
 
 <group>
 key=$KICK_DAMP_KEY

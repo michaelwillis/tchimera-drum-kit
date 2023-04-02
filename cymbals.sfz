@@ -16,7 +16,7 @@ amp_velcurve_64=0.75
 
 <master>
 polyphony=5
-master_volume=8
+master_volume=6
 
 <group>
 key=$CRASH_1_BOW_KEY
@@ -30,7 +30,7 @@ key=$CRASH_1_EDGE_KEY
 
 <master>
 polyphony=5
-master_volume=12
+master_volume=10
 
 <group>
 key=$CRASH_2_BOW_KEY
@@ -43,7 +43,7 @@ key=$CRASH_2_EDGE_KEY
 
 
 <master>
-polyphony=5
+polyphony=7
 master_volume=18
 
 <group>

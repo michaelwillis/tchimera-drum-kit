@@ -16,7 +16,7 @@ polyphony=4
 
 
 <master>
-master_volume=8
+master_volume=6
 
 <group>
 key=$TOM_1_KEY
@@ -29,7 +29,7 @@ key=$TOM_1_RIM_KEY
 
 
 <master>
-master_volume=6
+master_volume=4
 
 <group>
 key=$TOM_2_KEY
@@ -42,7 +42,7 @@ key=$TOM_2_RIM_KEY
 
 
 <master>
-master_volume=8
+master_volume=6
 
 <group>
 key=$TOM_3_KEY
@@ -55,7 +55,7 @@ key=$TOM_3_RIM_KEY
 
 
 <master>
-master_volume=4
+master_volume=3
 
 <group>
 key=$TOM_4_KEY

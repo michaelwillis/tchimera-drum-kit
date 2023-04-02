@@ -47,7 +47,7 @@ key=$SNARE_RIM_KEY
 <master>
 fil_type=lpf_4p
 cutoff=4000
-master_volume=6
+master_volume=3
 polyphony=4
 
 #define $SAMPLE_DIR samples/overheads/toms

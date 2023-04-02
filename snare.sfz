@@ -5,7 +5,7 @@
 loop_mode=one_shot
 amp_velcurve_1=0.25
 amp_velcurve_64=0.75
-global_volume=12
+global_volume=10
 polyphony=3
 
 <group>

@@ -9,6 +9,6 @@ set_cc4=100
 loop_mode=one_shot
 amp_velcurve_1=0.25
 amp_velcurve_64=0.75
-global_volume=6
+global_volume=10
 
 #include "sfz/hihat_all.sfz"
