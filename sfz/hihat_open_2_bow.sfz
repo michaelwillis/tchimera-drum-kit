@@ -1,22 +1,26 @@
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_01.wav
+pan=$HIHAT_PAN
 hivel=11
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_01.wav
+pan=$HIHAT_PAN
 hivel=11
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_02.wav
+pan=$HIHAT_PAN
 lovel=12
 hivel=23
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_02.wav
+pan=$HIHAT_PAN
 lovel=12
 hivel=23
 seq_length=2
@@ -24,12 +28,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_03.wav
+pan=$HIHAT_PAN
 lovel=24
 hivel=34
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_03.wav
+pan=$HIHAT_PAN
 lovel=24
 hivel=34
 seq_length=2
@@ -37,12 +43,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_04.wav
+pan=$HIHAT_PAN
 lovel=35
 hivel=46
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_04.wav
+pan=$HIHAT_PAN
 lovel=35
 hivel=46
 seq_length=2
@@ -50,12 +58,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_05.wav
+pan=$HIHAT_PAN
 lovel=47
 hivel=57
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_05.wav
+pan=$HIHAT_PAN
 lovel=47
 hivel=57
 seq_length=2
@@ -63,12 +73,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_06.wav
+pan=$HIHAT_PAN
 lovel=58
 hivel=69
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_06.wav
+pan=$HIHAT_PAN
 lovel=58
 hivel=69
 seq_length=2
@@ -76,12 +88,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_07.wav
+pan=$HIHAT_PAN
 lovel=70
 hivel=80
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_07.wav
+pan=$HIHAT_PAN
 lovel=70
 hivel=80
 seq_length=2
@@ -89,12 +103,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_08.wav
+pan=$HIHAT_PAN
 lovel=81
 hivel=92
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_08.wav
+pan=$HIHAT_PAN
 lovel=81
 hivel=92
 seq_length=2
@@ -102,12 +118,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_09.wav
+pan=$HIHAT_PAN
 lovel=93
 hivel=103
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_09.wav
+pan=$HIHAT_PAN
 lovel=93
 hivel=103
 seq_length=2
@@ -115,12 +133,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_10.wav
+pan=$HIHAT_PAN
 lovel=104
 hivel=115
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_10.wav
+pan=$HIHAT_PAN
 lovel=104
 hivel=115
 seq_length=2
@@ -128,11 +148,13 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_a_11.wav
+pan=$HIHAT_PAN
 lovel=116
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_hihat_op_2_bow_b_11.wav
+pan=$HIHAT_PAN
 lovel=116
 seq_length=2
 seq_position=2

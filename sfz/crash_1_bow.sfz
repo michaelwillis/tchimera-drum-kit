@@ -1,22 +1,26 @@
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_a_01.wav
+width=-30
 hivel=25
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_b_01.wav
+width=-30
 hivel=25
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_a_02.wav
+width=-30
 lovel=26
 hivel=50
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_b_02.wav
+width=-30
 lovel=26
 hivel=50
 seq_length=2
@@ -24,12 +28,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_a_03.wav
+width=-30
 lovel=51
 hivel=76
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_b_03.wav
+width=-30
 lovel=51
 hivel=76
 seq_length=2
@@ -37,12 +43,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_a_04.wav
+width=-30
 lovel=77
 hivel=101
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_b_04.wav
+width=-30
 lovel=77
 hivel=101
 seq_length=2
@@ -50,11 +58,13 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_a_05.wav
+width=-30
 lovel=102
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_bow_b_05.wav
+width=-30
 lovel=102
 seq_length=2
 seq_position=2

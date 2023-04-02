@@ -1,9 +1,14 @@
 #include "keymap.sfz"
 #define $SAMPLE_DIR samples/hihat
+#define $HIHAT_PAN=-50
+
+<control>
+set_cc4=100
 
 <global>
 loop_mode=one_shot
-amp_veltrack=100
-amp_velcurve_1=0.4
+amp_velcurve_1=0.25
+amp_velcurve_64=0.75
+global_volume=6
 
 #include "sfz/hihat_all.sfz"

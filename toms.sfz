@@ -1,11 +1,22 @@
 #include "keymap.sfz"
 #define $SAMPLE_DIR samples/toms
 
+// Pan the mono samples to approximately match the overhead stereo samples
+#define $TOM_1_PAN -25
+#define $TOM_2_PAN 0
+#define $TOM_3_PAN 25
+#define $TOM_4_PAN 50
+
 <global>
 loop_mode=one_shot
-amp_veltrack=100
-amp_velcurve_1=0.4
-polyphony=3
+amp_velcurve_1=0.25
+amp_velcurve_64=0.75
+polyphony=4
+
+
+
+<master>
+master_volume=8
 
 <group>
 key=$TOM_1_KEY
@@ -15,6 +26,11 @@ key=$TOM_1_KEY
 key=$TOM_1_RIM_KEY
 #include "sfz/tom_1_rim.sfz"
 
+
+
+<master>
+master_volume=6
+
 <group>
 key=$TOM_2_KEY
 #include "sfz/tom_2.sfz"
@@ -23,6 +39,11 @@ key=$TOM_2_KEY
 key=$TOM_2_RIM_KEY
 #include "sfz/tom_2_rim.sfz"
 
+
+
+<master>
+master_volume=8
+
 <group>
 key=$TOM_3_KEY
 #include "sfz/tom_3.sfz"
@@ -30,6 +51,11 @@ key=$TOM_3_KEY
 <group>
 key=$TOM_3_RIM_KEY
 #include "sfz/tom_3_rim.sfz"
+
+
+
+<master>
+master_volume=4
 
 <group>
 key=$TOM_4_KEY
@@ -40,13 +66,3 @@ tune=300
 tune=300
 key=$TOM_4_RIM_KEY
 #include "sfz/tom_4_rim.sfz"
-
-<group>
-tune=-200
-key=$TOM_5_KEY
-#include "sfz/tom_5.sfz"
-
-<group>
-tune=-200
-key=$TOM_5_RIM_KEY
-#include "sfz/tom_5_rim.sfz"

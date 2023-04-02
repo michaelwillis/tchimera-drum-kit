@@ -1,17 +1,22 @@
 #include "keymap.sfz"
 #define $SAMPLE_DIR samples/cymbals
 
+<control>
+set_cc4=100
+
 <global>
 loop_mode=one_shot
-amp_veltrack=100
-amp_velcurve_1=0.4
+amp_velcurve_1=0.25
+amp_velcurve_64=0.75
 
 
+#DEFINE HIHAT_PAN=0 // Hihat stereo samples don't need panning
 #include "sfz/hihat_all.sfz"
 
 
 <master>
-polyphony=4
+polyphony=5
+master_volume=8
 
 <group>
 key=$CRASH_1_BOW_KEY
@@ -22,8 +27,10 @@ key=$CRASH_1_EDGE_KEY
 #include "sfz/crash_1_edge.sfz"
 
 
+
 <master>
-polyphony=4
+polyphony=5
+master_volume=12
 
 <group>
 key=$CRASH_2_BOW_KEY
@@ -34,8 +41,10 @@ key=$CRASH_2_EDGE_KEY
 #include "sfz/crash_2_edge.sfz"
 
 
+
 <master>
-polyphony=4
+polyphony=7
+master_volume=18
 
 <group>
 group=7

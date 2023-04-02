@@ -1,22 +1,26 @@
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_01.wav
+pan=$TOM_2_PAN
 hivel=10
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_01.wav
+pan=$TOM_2_PAN
 hivel=10
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_02.wav
+pan=$TOM_2_PAN
 lovel=11
 hivel=21
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_02.wav
+pan=$TOM_2_PAN
 lovel=11
 hivel=21
 seq_length=2
@@ -24,12 +28,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_03.wav
+pan=$TOM_2_PAN
 lovel=22
 hivel=31
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_03.wav
+pan=$TOM_2_PAN
 lovel=22
 hivel=31
 seq_length=2
@@ -37,12 +43,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_04.wav
+pan=$TOM_2_PAN
 lovel=32
 hivel=42
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_04.wav
+pan=$TOM_2_PAN
 lovel=32
 hivel=42
 seq_length=2
@@ -50,12 +58,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_05.wav
+pan=$TOM_2_PAN
 lovel=43
 hivel=52
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_05.wav
+pan=$TOM_2_PAN
 lovel=43
 hivel=52
 seq_length=2
@@ -63,12 +73,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_06.wav
+pan=$TOM_2_PAN
 lovel=53
 hivel=63
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_06.wav
+pan=$TOM_2_PAN
 lovel=53
 hivel=63
 seq_length=2
@@ -76,12 +88,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_07.wav
+pan=$TOM_2_PAN
 lovel=64
 hivel=74
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_07.wav
+pan=$TOM_2_PAN
 lovel=64
 hivel=74
 seq_length=2
@@ -89,12 +103,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_08.wav
+pan=$TOM_2_PAN
 lovel=75
 hivel=84
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_08.wav
+pan=$TOM_2_PAN
 lovel=75
 hivel=84
 seq_length=2
@@ -102,12 +118,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_09.wav
+pan=$TOM_2_PAN
 lovel=85
 hivel=95
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_09.wav
+pan=$TOM_2_PAN
 lovel=85
 hivel=95
 seq_length=2
@@ -115,12 +133,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_10.wav
+pan=$TOM_2_PAN
 lovel=96
 hivel=105
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_10.wav
+pan=$TOM_2_PAN
 lovel=96
 hivel=105
 seq_length=2
@@ -128,12 +148,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_11.wav
+pan=$TOM_2_PAN
 lovel=106
 hivel=116
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_11.wav
+pan=$TOM_2_PAN
 lovel=106
 hivel=116
 seq_length=2
@@ -141,11 +163,13 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_a_12.wav
+pan=$TOM_2_PAN
 lovel=117
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_13_ctr_b_12.wav
+pan=$TOM_2_PAN
 lovel=117
 seq_length=2
 seq_position=2

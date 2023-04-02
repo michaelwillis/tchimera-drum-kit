@@ -1,61 +1,71 @@
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_a_01.wav
-hivel=25
+width=-30
+hivel=24
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_b_01.wav
-hivel=25
+width=-30
+hivel=24
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_a_02.wav
-lovel=26
-hivel=50
+width=-30
+lovel=25
+hivel=63
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_b_02.wav
-lovel=26
-hivel=50
+width=-30
+lovel=25
+hivel=63
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_a_03.wav
-lovel=51
-hivel=76
+width=-30
+lovel=64
+hivel=95
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_b_03.wav
-lovel=51
-hivel=76
+width=-30
+lovel=64
+hivel=95
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_a_04.wav
-lovel=77
-hivel=101
+width=-30
+lovel=96
+hivel=111
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_b_04.wav
-lovel=77
-hivel=101
+width=-30
+lovel=96
+hivel=111
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_a_05.wav
-lovel=102
+width=-30
+lovel=112
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/crash_15_sabi_edg_b_05.wav
-lovel=102
+width=-30
+lovel=112
 seq_length=2
 seq_position=2
 

@@ -1,22 +1,26 @@
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_01.wav
+pan=$TOM_1_PAN
 hivel=15
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_01.wav
+pan=$TOM_1_PAN
 hivel=15
 seq_length=2
 seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_02.wav
+pan=$TOM_1_PAN
 lovel=16
 hivel=31
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_02.wav
+pan=$TOM_1_PAN
 lovel=16
 hivel=31
 seq_length=2
@@ -24,12 +28,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_03.wav
+pan=$TOM_1_PAN
 lovel=32
 hivel=47
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_03.wav
+pan=$TOM_1_PAN
 lovel=32
 hivel=47
 seq_length=2
@@ -37,12 +43,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_04.wav
+pan=$TOM_1_PAN
 lovel=48
 hivel=63
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_04.wav
+pan=$TOM_1_PAN
 lovel=48
 hivel=63
 seq_length=2
@@ -50,12 +58,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_05.wav
+pan=$TOM_1_PAN
 lovel=64
 hivel=79
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_05.wav
+pan=$TOM_1_PAN
 lovel=64
 hivel=79
 seq_length=2
@@ -63,12 +73,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_06.wav
+pan=$TOM_1_PAN
 lovel=80
 hivel=95
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_06.wav
+pan=$TOM_1_PAN
 lovel=80
 hivel=95
 seq_length=2
@@ -76,12 +88,14 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_07.wav
+pan=$TOM_1_PAN
 lovel=96
 hivel=111
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_07.wav
+pan=$TOM_1_PAN
 lovel=96
 hivel=111
 seq_length=2
@@ -89,11 +103,13 @@ seq_position=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_a_08.wav
+pan=$TOM_1_PAN
 lovel=112
 seq_length=2
 
 <region>
 sample=$SAMPLE_DIR/black_cortex_tom_12_edge_b_08.wav
+pan=$TOM_1_PAN
 lovel=112
 seq_length=2
 seq_position=2

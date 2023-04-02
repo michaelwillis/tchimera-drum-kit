@@ -2,9 +2,14 @@
 
 <global>
 loop_mode=one_shot
-amp_veltrack=100
-amp_velcurve_1=0.4
+amp_velcurve_1=0.25
+amp_velcurve_64=0.75
 
+
+
+<master>
+master_volume=18
+polyphony=2
 
 #define $SAMPLE_DIR samples/overheads/kick
 
@@ -17,10 +22,16 @@ key=$KICK_FREE_KEY
 #include "sfz/kick_free.sfz"
 
 
+
+<master>
+master_volume=12
+polyphony=3
+
 #define $SAMPLE_DIR samples/overheads/snare
 
 <group>
 key=$SNARE_CENTER_KEY
+width=-100
 #include "sfz/snare_center.sfz"
 
 <group>
@@ -32,12 +43,20 @@ key=$SNARE_RIM_KEY
 #include "sfz/snare_rim.sfz"
 
 
+
 <master>
 fil_type=lpf_4p
 cutoff=4000
-amplitude=50
+master_volume=6
+polyphony=4
 
 #define $SAMPLE_DIR samples/overheads/toms
+
+// The overhead stereo samples for the toms don't need panning
+#define $TOM_1_PAN 0
+#define $TOM_2_PAN 0
+#define $TOM_3_PAN 0
+#define $TOM_4_PAN 0
 
 <group>
 key=$TOM_1_KEY

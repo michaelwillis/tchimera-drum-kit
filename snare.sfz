@@ -3,8 +3,10 @@
 
 <global>
 loop_mode=one_shot
-amp_veltrack=100
-amp_velcurve_1=0.4
+amp_velcurve_1=0.25
+amp_velcurve_64=0.75
+global_volume=12
+polyphony=3
 
 <group>
 key=$SNARE_CENTER_KEY

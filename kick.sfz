@@ -3,8 +3,12 @@
 
 <global>
 loop_mode=one_shot
-amp_veltrack=100
-amp_velcurve_1=0.4
+amp_velcurve_1=0.25
+amp_velcurve_64=0.75
+
+<master>
+polyphony=2
+master_volume=12
 
 <group>
 key=$KICK_DAMP_KEY
