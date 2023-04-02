@@ -1,7 +1,6 @@
 #define $KICK_FREE_KEY 35
 #define $KICK_DAMP_KEY 36
 
-#define $SNARE_CROSS_STICK 37
 #define $SNARE_CENTER_KEY 38
 #define $SNARE_EDGE_KEY 39
 #define $SNARE_RIM_KEY 40
