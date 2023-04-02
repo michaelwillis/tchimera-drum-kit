@@ -43,7 +43,7 @@ key=$CRASH_2_EDGE_KEY
 
 
 <master>
-polyphony=7
+polyphony=5
 master_volume=18
 
 <group>
@@ -60,3 +60,15 @@ key=$RIDE_EDGE_KEY
 #include "sfz/ride_edge.sfz"
 
 
+
+<master>
+polyphony=3
+master_volume=6
+
+<group>
+key=$TRASH_EDGE_KEY
+#include "sfz/trash_edge.sfz"
+
+<group>
+key=$TRASH_BOW_KEY
+#include "sfz/trash_bow.sfz"

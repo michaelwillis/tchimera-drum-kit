@@ -31,9 +31,6 @@
 #define $TOM_4_KEY 31
 #define $TOM_4_RIM_KEY 33
 
-// 32 is AUX on some Roland models, so I'm making it a splash cymbal
-#define $SPLASH_KEY 32
-
 #define $CRASH_1_EDGE_KEY 49
 #define $CRASH_1_BOW_KEY 55
 #define $CRASH_2_EDGE_KEY 57
@@ -43,3 +40,5 @@
 #define $RIDE_BELL_KEY 53
 #define $RIDE_EDGE_KEY 59
 
+#define $TRASH_BOW_KEY 30
+#define $TRASH_EDGE_KEY 32
