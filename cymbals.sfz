@@ -20,12 +20,28 @@ master_volume=6
 
 <group>
 key=$CRASH_1_BOW_KEY
+hipolyaft=63
 #include "sfz/crash_1_bow.sfz"
 
 <group>
 key=$CRASH_1_EDGE_KEY
+hipolyaft=63
 #include "sfz/crash_1_edge.sfz"
 
+
+<group>
+key=$CRASH_1_BOW_KEY
+lopolyaft=64
+loop_mode=no_loop
+ampeg_release=1.0
+#include "sfz/crash_1_bow.sfz"
+
+<group>
+key=$CRASH_1_EDGE_KEY
+lopolyaft=64
+loop_mode=no_loop
+ampeg_release=1.0
+#include "sfz/crash_1_edge.sfz"
 
 
 <master>
@@ -34,12 +50,27 @@ master_volume=10
 
 <group>
 key=$CRASH_2_BOW_KEY
+hipolyaft=63
 #include "sfz/crash_2_bow.sfz"
 
 <group>
 key=$CRASH_2_EDGE_KEY
+hipolyaft=63
 #include "sfz/crash_2_edge.sfz"
 
+<group>
+key=$CRASH_2_BOW_KEY
+lopolyaft=64
+loop_mode=no_loop
+ampeg_release=1.0
+#include "sfz/crash_2_bow.sfz"
+
+<group>
+key=$CRASH_2_EDGE_KEY
+lopolyaft=64
+loop_mode=no_loop
+ampeg_release=1.0
+#include "sfz/crash_2_edge.sfz"
 
 
 <master>
