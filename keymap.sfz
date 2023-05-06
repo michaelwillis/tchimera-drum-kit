@@ -31,10 +31,10 @@
 #define $TOM_4_KEY 31
 #define $TOM_4_RIM_KEY 33
 
-#define $CRASH_1_EDGE_KEY 49
-#define $CRASH_1_BOW_KEY 55
-#define $CRASH_2_EDGE_KEY 57
-#define $CRASH_2_BOW_KEY 52
+#define $CRASH_1_EDGE_KEY 55
+#define $CRASH_1_BOW_KEY 49
+#define $CRASH_2_EDGE_KEY 52
+#define $CRASH_2_BOW_KEY 57
 
 #define $RIDE_BOW_KEY 51
 #define $RIDE_BELL_KEY 53

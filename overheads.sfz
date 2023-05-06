@@ -24,7 +24,7 @@ key=$KICK_FREE_KEY
 
 
 <master>
-master_volume=12
+master_volume=18
 polyphony=3
 
 #define $SAMPLE_DIR samples/overheads/snare
