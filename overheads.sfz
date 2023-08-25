@@ -91,3 +91,218 @@ tune=300
 key=$TOM_4_RIM_KEY
 tune=300
 #include "sfz/tom_4_rim.sfz"
+
+
+
+#define $SAMPLE_DIR samples/cymbals
+
+#define $HIHAT_PAN 0 // Hihat stereo samples don't need panning
+#include "sfz/hihat_all.sfz"
+<control> set_cc4=100
+
+<master>
+polyphony=11
+// choke:
+off_mode=normal
+ampeg_release=1.0
+
+
+<group>
+key=$CRASH_1_EDGE_KEY
+hipolyaft=63
+group=6
+off_by=7
+#include "sfz/crash_1_edge.sfz"
+
+<group>
+key=$CRASH_1_BOW_KEY
+group_volume=6
+group=6
+off_by=7
+hipolyaft=63
+#include "sfz/crash_1_bow.sfz"
+
+
+<group>
+group=7
+key=$CRASH_1_EDGE_KEY
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/crash_1_edge.sfz"
+
+<group>
+group=7
+key=$CRASH_1_BOW_KEY
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/crash_1_bow.sfz"
+
+
+<group>
+group=7
+key=$CRASH_1_EDGE_KEY
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+<group>
+key=$CRASH_1_BOW_KEY
+group_volume=6
+group=7
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+
+
+<master>
+polyphony=11
+// choke:
+off_mode=normal
+ampeg_release=1.0
+
+
+<group>
+key=$CRASH_2_EDGE_KEY
+hipolyaft=63
+group=8
+off_by=9
+#include "sfz/crash_2_edge.sfz"
+
+<group>
+key=$CRASH_2_BOW_KEY
+hipolyaft=63
+group_volume=6
+group=8
+off_by=9
+#include "sfz/crash_2_bow.sfz"
+
+
+<group>
+group=9
+key=$CRASH_2_EDGE_KEY
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/crash_2_edge.sfz"
+
+<group>
+group=9
+key=$CRASH_2_BOW_KEY
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/crash_2_bow.sfz"
+
+
+<group>
+group=9
+key=$CRASH_2_EDGE_KEY
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+<group>
+key=$CRASH_2_BOW_KEY
+group_volume=6
+group=9
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+
+
+<master>
+polyphony=13
+master_volume=12
+off_mode=normal
+ampeg_release=1.0
+
+<group>
+key=$RIDE_BOW_KEY
+hipolyaft=63
+group=10
+off_by=11
+group_volume=6
+// group_volume=12
+#include "sfz/ride_bow.sfz"
+
+<group>
+key=$RIDE_BELL_KEY
+hipolyaft=63
+group=10
+off_by=11
+#include "sfz/ride_bell.sfz"
+
+<group>
+key=$RIDE_EDGE_KEY
+hipolyaft=63
+group=10
+off_by=11
+#include "sfz/ride_edge.sfz"
+
+
+<group>
+key=$RIDE_BOW_KEY
+group=11
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/ride_bow.sfz"
+
+<group>
+key=$RIDE_BELL_KEY
+group=11
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/ride_bell.sfz"
+
+<group>
+key=$RIDE_EDGE_KEY
+group=11
+lopolyaft=64
+loop_mode=no_loop
+#include "sfz/ride_edge.sfz"
+
+
+<group>
+key=$RIDE_BOW_KEY
+group=11
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+<group>
+key=$RIDE_BELL_KEY
+group=11
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+<group>
+key=$RIDE_EDGE_KEY
+group=11
+<region>
+lopolyaft=64
+on_locc130=64
+trigger=release
+
+
+
+<master>
+polyphony=7
+loop_mode=no_loop
+ampeg_release=3
+master_volume=8
+off_mode=normal
+
+<group>
+key=$TRASH_EDGE_KEY
+#include "sfz/trash_edge.sfz"
+
+<group>
+key=$TRASH_BOW_KEY
+#include "sfz/trash_bow.sfz"

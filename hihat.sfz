@@ -1,6 +1,6 @@
 #include "keymap.sfz"
 #define $SAMPLE_DIR samples/hihat
-#define $HIHAT_PAN=-50
+#define $HIHAT_PAN -50
 
 <control>
 set_cc4=100
