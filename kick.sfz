@@ -2,6 +2,7 @@
 #define $SAMPLE_DIR samples/kick
 
 <global>
+output=1
 loop_mode=one_shot
 amp_velcurve_1=0.25
 amp_velcurve_64=0.75

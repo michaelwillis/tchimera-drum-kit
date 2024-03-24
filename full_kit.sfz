@@ -1,0 +1,5 @@
+#include "overheads.sfz"
+#include "kick.sfz"
+#include "snare.sfz"
+#include "toms.sfz"
+#include "hihat.sfz"

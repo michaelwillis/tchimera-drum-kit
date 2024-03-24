@@ -2,6 +2,7 @@
 #define $SAMPLE_DIR samples/snare
 
 <global>
+output=2
 loop_mode=no_loop
 off_mode=normal
 ampeg_release=1.0

@@ -8,6 +8,7 @@
 #define $TOM_4_PAN 50
 
 <global>
+output=3
 loop_mode=one_shot
 amp_velcurve_1=0.25
 amp_velcurve_64=0.75
