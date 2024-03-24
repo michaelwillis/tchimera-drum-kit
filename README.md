@@ -14,10 +14,10 @@ This kit has been tested with [sfizz](https://sfz.tools/sfizz/)
 ## Quick setup with Ardour + sfizz
 
 * Create a new midi track, name it something like "Drum Kit", select
-  Instrument: sfizz-multi
+  Instrument: sfizz-multi.
 * In the Plugin Setup dialog, select Output Configuration: 10 Channels, and
-  Enable Fan out
-* Open the sfizz-multi plugin on the track, load the `full_kit.sfz` file
+  Enable Fan out.
+* Open the sfizz-multi plugin on the track, load the `full_kit.sfz` file.
 * Rename the output busses in order:
     * Overheads
     * Kick
