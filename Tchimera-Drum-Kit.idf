@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<muse version="1.0">
+  <MidiInstrument name="Tchimera Drum Kit">
+    <PatchGroup name="Drums">
+      <Patch name="Tchimera Drum Kit" drum="1" />
+    </PatchGroup>
+    <Drummaps>
+      <entry>
+        <drummap>
+          <entry pitch="0">
+            <name>Kick Damp</name>
+            <enote>35</enote>
+            <anote>35</anote> 
+          </entry>
+          <entry pitch="1">
+            <name>Kick Damp</name>
+            <enote>36</enote>
+            <anote>36</anote> 
+          </entry>
+          <entry pitch="2">
+            <name>Snare Center</name>
+            <enote>38</enote>
+            <anote>38</anote> 
+          </entry>
+          <entry pitch="3">
+            <name>Snare Edge</name>
+            <enote>39</enote>
+            <anote>39</anote> 
+          </entry>
+          <entry pitch="4">
+            <name>Snare Rim</name>
+            <enote>40</enote>
+            <anote>40</anote> 
+          </entry>
+          <entry pitch="5">
+            <name>Hihat Open Bow</name>
+            <enote>46</enote>
+            <anote>46</anote> 
+          </entry>
+          <entry pitch="6">
+            <name>Hihat Open Edge</name>
+            <enote>26</enote>
+            <anote>26</anote> 
+          </entry>
+          <entry pitch="7">
+            <name>Hihat Half Edge</name>
+            <enote>24</enote>
+            <anote>24</anote> 
+          </entry>
+          <entry pitch="8">
+            <name>Hihat Closed Bow</name>
+            <enote>42</enote>
+            <anote>42</anote> 
+          </entry>
+          <entry pitch="9">
+            <name>Hihat Closed Edge</name>
+            <enote>22</enote>
+            <anote>22</anote> 
+          </entry>
+          <entry pitch="10">
+            <name>Hihat Pedal</name>
+            <enote>44</enote>
+            <anote>44</anote> 
+          </entry>
+          <entry pitch="11">
+            <name>Hihat Half Bow (Alesis)</name>
+            <enote>23</enote>
+            <anote>23</anote> 
+          </entry>
+          <entry pitch="12">
+            <name>Hihat Splash (Alesis)</name>
+            <enote>21</enote>
+            <anote>21</anote> 
+          </entry>
+          <entry pitch="13">
+            <name>Hihat Half Bow (Simmons)</name>
+            <enote>86</enote>
+            <anote>86</anote> 
+          </entry>
+          <entry pitch="14">
+            <name>Hihat Splash (Simmons)</name>
+            <enote>85</enote>
+            <anote>85</anote> 
+          </entry>
+          <entry pitch="15">
+            <name>Tom 1</name>
+            <enote>48</enote>
+            <anote>48</anote> 
+          </entry>
+          <entry pitch="16">
+            <name>Tom 1 Rim</name>
+            <enote>50</enote>
+            <anote>50</anote> 
+          </entry>
+          <entry pitch="17">
+            <name>Tom 2</name>
+            <enote>45</enote>
+            <anote>45</anote> 
+          </entry>
+          <entry pitch="18">
+            <name>Tom 2 Rim</name>
+            <enote>47</enote>
+            <anote>47</anote> 
+          </entry>
+          <entry pitch="19">
+            <name>Tom 3</name>
+            <enote>41</enote>
+            <anote>41</anote> 
+          </entry>
+          <entry pitch="20">
+            <name>Tom 3 Rim</name>
+            <enote>43</enote>
+            <anote>43</anote> 
+          </entry>
+          <entry pitch="21">
+            <name>Tom 4</name>
+            <enote>31</enote>
+            <anote>31</anote> 
+          </entry>
+          <entry pitch="22">
+            <name>Tom 4 Rim</name>
+            <enote>33</enote>
+            <anote>33</anote> 
+          </entry>
+          <entry pitch="23">
+            <name>Crash 1 Edge</name>
+            <enote>55</enote>
+            <anote>55</anote> 
+          </entry>
+          <entry pitch="24">
+            <name>Crash 1 Bow</name>
+            <enote>49</enote>
+            <anote>49</anote> 
+          </entry>
+          <entry pitch="25">
+            <name>Crash 2 Edge</name>
+            <enote>52</enote>
+            <anote>52</anote> 
+          </entry>
+          <entry pitch="26">
+            <name>Crash 2 Bow</name>
+            <enote>57</enote>
+            <anote>57</anote> 
+          </entry>
+          <entry pitch="27">
+            <name>Ride Bow</name>
+            <enote>51</enote>
+            <anote>51</anote> 
+          </entry>
+          <entry pitch="28">
+            <name>Ride Bell</name>
+            <enote>53</enote>
+            <anote>53</anote> 
+          </entry>
+          <entry pitch="29">
+            <name>Ride Edge</name>
+            <enote>59</enote>
+            <anote>59</anote> 
+          </entry>
+          <entry pitch="30">
+            <name>Trash Bow</name>
+            <enote>30</enote>
+            <anote>30</anote> 
+          </entry>
+          <entry pitch="31">
+            <name>Trash Edge</name>
+            <enote>32</enote>
+            <anote>32</anote> 
+          </entry>
+          <entry pitch="32">
+            <hide>1</hide>
+            <enote>12</enote>
+            <anote>12</anote>
+          </entry>
+          <entry pitch="33">
+            <hide>1</hide>
+            <enote>9</enote>
+            <anote>9</anote>
+          </entry>
+          <entry pitch="34">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="35">
+            <hide>1</hide>
+            <enote>0</enote>
+            <anote>0</anote>
+          </entry>
+          <entry pitch="36">
+            <hide>1</hide>
+            <enote>1</enote>
+            <anote>1</anote>
+          </entry>
+          <entry pitch="37">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="38">
+            <hide>1</hide>
+            <enote>2</enote>
+            <anote>2</anote>
+          </entry>
+          <entry pitch="39">
+            <hide>1</hide>
+            <enote>3</enote>
+            <anote>3</anote>
+          </entry>
+          <entry pitch="40">
+            <hide>1</hide>
+            <enote>4</enote>
+            <anote>4</anote>
+          </entry>
+          <entry pitch="41">
+            <hide>1</hide>
+            <enote>19</enote>
+            <anote>19</anote>
+          </entry>
+          <entry pitch="42">
+            <hide>1</hide>
+            <enote>8</enote>
+            <anote>8</anote>
+          </entry>
+          <entry pitch="43">
+            <hide>1</hide>
+            <enote>20</enote>
+            <anote>20</anote>
+          </entry>
+          <entry pitch="44">
+            <hide>1</hide>
+            <enote>10</enote>
+            <anote>10</anote>
+          </entry>
+          <entry pitch="45">
+            <hide>1</hide>
+            <enote>17</enote>
+            <anote>17</anote>
+          </entry>
+          <entry pitch="46">
+            <hide>1</hide>
+            <enote>5</enote>
+            <anote>5</anote>
+          </entry>
+          <entry pitch="47">
+            <hide>1</hide>
+            <enote>18</enote>
+            <anote>18</anote>
+          </entry>
+          <entry pitch="48">
+            <hide>1</hide>
+            <enote>15</enote>
+            <anote>15</anote>
+          </entry>
+          <entry pitch="49">
+            <hide>1</hide>
+            <enote>7</enote>
+            <anote>7</anote>
+          </entry>
+          <entry pitch="50">
+            <hide>1</hide>
+            <enote>16</enote>
+            <anote>16</anote>
+          </entry>
+          <entry pitch="51">
+            <hide>1</hide>
+            <enote>27</enote>
+            <anote>27</anote>
+          </entry>
+          <entry pitch="52">
+            <hide>1</hide>
+            <enote>25</enote>
+            <anote>25</anote>
+          </entry>
+          <entry pitch="53">
+            <hide>1</hide>
+            <enote>28</enote>
+            <anote>28</anote>
+          </entry>
+          <entry pitch="54">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="55">
+            <hide>1</hide>
+            <enote>11</enote>
+            <anote>11</anote>
+          </entry>
+          <entry pitch="56">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="57">
+            <hide>1</hide>
+            <enote>6</enote>
+            <anote>6</anote>
+          </entry>
+          <entry pitch="58">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="59">
+            <hide>1</hide>
+            <enote>29</enote>
+            <anote>29</anote>
+          </entry>
+          <entry pitch="60">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="61">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="62">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="63">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="64">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="65">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="66">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="67">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="68">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="69">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="70">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="71">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="72">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="73">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="74">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="75">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="76">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="77">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="78">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="79">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="80">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="81">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="82">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="83">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="84">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="85">
+            <hide>1</hide>
+            <enote>14</enote>
+            <anote>14</anote>
+          </entry>
+          <entry pitch="86">
+            <hide>1</hide>
+            <enote>13</enote>
+            <anote>13</anote>
+          </entry>
+          <entry pitch="87">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="88">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="89">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="90">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="91">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="92">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="93">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="94">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="95">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="96">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="97">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="98">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="99">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="100">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="101">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="102">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="103">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="104">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="105">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="106">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="107">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="108">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="109">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="110">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="111">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="112">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="113">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="114">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="115">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="116">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="117">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="118">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="119">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="120">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="121">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="122">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="123">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="124">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="125">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="126">
+            <hide>1</hide>
+          </entry>
+          <entry pitch="127">
+            <hide>1</hide>
+          </entry>
+          </drummap>
+      </entry>
+    </Drummaps>
+  </MidiInstrument>
+</muse>
