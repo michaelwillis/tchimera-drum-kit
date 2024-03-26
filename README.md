@@ -1,8 +1,8 @@
-# Tchimera Kit
+# Tchimera Drum Kit
 
 This is a virtual drum kit in SFZ format using samples recorded by Vincent
 "[Tchackpoum](http://tchackpoum.fr/)" Sermone. The MIDI mappings are set up
-with the intention of working for many popular e-drumkits (Alesis, Roland,
+with the intention of working for many popular e-drum kits (Alesis, Roland,
 Simmons, et. al.) without having to futz about with MIDI note numbers.
 
 The sound files include a combination of mono and stereo samples. All mono
@@ -40,7 +40,7 @@ following files:
 
 ## License
 
-The creation of music using Tchimera Kit is allowed under the terms of the
+The creation of music using Tchimera Drum Kit is allowed under the terms of the
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
 The creation of derivative virtual drum kits is allowed under the terms of the
