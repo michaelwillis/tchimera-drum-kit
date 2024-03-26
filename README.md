@@ -1,4 +1,4 @@
-# tchackpoum-sfz
+# tchimera-kit
 
 This is a virtual drum kit in SFZ format using samples recorded by Vincent
 "[Tchackpoum](http://tchackpoum.fr/)" Sermone. The MIDI mappings are set up
@@ -40,7 +40,7 @@ following files:
 
 ## License
 
-The creation of music using tchackpoum-sfz is allowed under the terms of the
+The creation of music using tchimera-kit is allowed under the terms of the
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
 The creation of derivative virtual drum kits is allowed under the terms of the
