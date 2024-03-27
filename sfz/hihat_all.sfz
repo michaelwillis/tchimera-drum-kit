@@ -88,12 +88,14 @@ off_by=2
 key=$HIHAT_SPLASH_KEY_1
 group=1
 off_by=2
+group_volume=8
 #include "sfz/hihat_splash.sfz"
 
 <group>
 key=$HIHAT_SPLASH_KEY_2
 group=1
 off_by=2
+group_volume=8
 #include "sfz/hihat_splash.sfz"
 
 
