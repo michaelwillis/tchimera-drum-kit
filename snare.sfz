@@ -22,3 +22,7 @@ key=$SNARE_EDGE_KEY
 <group>
 key=$SNARE_RIM_KEY
 #include "sfz/snare_rim.sfz"
+
+<group>
+key=$SNARE_SS_KEY
+#include "sfz/snare_ss.sfz"

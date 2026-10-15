@@ -4,6 +4,7 @@
 #define $SNARE_CENTER_KEY 38
 #define $SNARE_EDGE_KEY 39
 #define $SNARE_RIM_KEY 40
+#define $SNARE_SS_KEY 37
 
 
 #define $HIHAT_OPEN_BOW_KEY 46
@@ -19,7 +20,7 @@
 
 // Simmons
 #define $HIHAT_HALF_BOW_KEY_2 86
-#define $HIHAT_SPLASH_KEY_2 85 
+#define $HIHAT_SPLASH_KEY_2 85
 
 
 #define $TOM_1_KEY 48
